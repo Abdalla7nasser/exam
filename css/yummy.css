@@ -1,0 +1,117 @@
+/* g1 */
+*{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* sidber */
+section{
+    position: fixed; 
+    height: 100vh;
+    width: 20%; 
+    z-index: 99999999;  
+    
+}
+section .loop{
+    background-color: black;
+    color: white;
+    width: 100%;
+    white-space: nowrap;
+   display: none; 
+}
+section .loop .sidLeft .sidDoo{
+    margin: 22px 0px;
+    color: white;
+}
+section .loop .opppo{
+    padding-left: 20px;
+    margin-top: 25rem;
+}
+section .loop .opppo p{
+    width: 10px;
+    
+}
+
+section .sidRight{
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+section .sidRight .imgSide{
+width: 50%;
+margin: 10px;
+}
+section .sidRight .imgSide img{
+    width: 100%;
+}
+section .sidRight .foor{
+    margin: 19px;
+    font-size: 30px;
+    cursor: pointer;
+}
+section .sidRight li{
+cursor: pointer;
+}
+
+
+/* s2 */
+
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.side-nav-menu{
+    z-index: 99;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
